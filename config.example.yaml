@@ -1,0 +1,20 @@
+watch:
+  # Folder where your video editor exports completed videos.
+  folder: "D:/VideoExports"
+  recursive: false
+  # File must remain unchanged for this many seconds before delivery.
+  stable_seconds: 8
+  scan_interval_seconds: 3
+
+google_drive:
+  enabled: false
+  credentials_file: "credentials.json"
+  token_file: "token.json"
+
+clients:
+  CLIENTA:
+    local_folder: "D:/ClientVideos/ClientA"
+    google_drive_folder_id: ""
+  CLIENTB:
+    local_folder: "D:/ClientVideos/ClientB"
+    google_drive_folder_id: ""
